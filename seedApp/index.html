@@ -1,0 +1,48 @@
+<!doctype html>
+<!--
+/**
+ This is bluemix compliant angular seed app
+ Authored by Shubhradeep Nandi
+**/
+-->
+<html>
+  <head>
+      <link href='https://fonts.googleapis.com/css?family=Roboto:400,300,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link href="css/main.css" rel="stylesheet" />
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.4.2/angular.min.js"></script>
+  </head>
+  <body ng-app="myApp">
+    <div class="header">
+      <div class="container">
+        
+      </div>
+    </div>
+
+    <div class="main" ng-controller="BossController">
+      <div class="container">
+      <h1>{{name}}</h1>
+        <div class="app">
+          <span class="version">{{version}}</span>
+          <span class="msg">{{message}}</span>
+        </div>
+
+      </div>
+      
+    <div class="footer">
+     <ul><li>{{author}}</li><li> &amp; {{release}}</li></ul>
+    </div>
+    </div>
+
+
+
+    <!-- Modules -->
+    <script src="js/app.js"></script>
+
+    <!-- Controllers -->
+    <script src="js/controllers/BossController.js"></script>
+
+    <!-- Services -->
+    <!-- <script src="js/services/MyAppService.js"></script> -->     
+  </body>
+</html>
