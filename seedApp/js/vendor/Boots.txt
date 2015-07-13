@@ -1,0 +1,1 @@
+Vendor related javscripts like jquery/bootstrap/angular Router etc goes here
